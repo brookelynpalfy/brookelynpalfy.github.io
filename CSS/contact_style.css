@@ -5,7 +5,10 @@
 }
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    background-image:url(../Photos/jason-leung-UMncYEfO9-U-unsplash.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container{
