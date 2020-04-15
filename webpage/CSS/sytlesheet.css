@@ -19,7 +19,8 @@ body{
 }
 .hero-text{
     padding:80px;
-    background-color: #B4D0E7;
+    background-color:#CCC2CD;
+    color:balck;
     text-align: right;
     flex:1;
 
@@ -31,10 +32,10 @@ body{
 }
 .link2{
     padding:20px 40px;
-    background-color: #deb887;
+    background-color: #335D7E;
     border-radius: 15px;
     
-    color:black;
+    color:white;
     text-decoration:none;
 }
 
@@ -44,6 +45,7 @@ body{
     background-position: center;
     background-color: #B4D0E7;
     flex:1;
+    width:50%;
 }
 
 .hero-text p{
