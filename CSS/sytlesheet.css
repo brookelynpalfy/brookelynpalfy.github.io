@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 body{
-    background-color: #335D7E;
+    background-color: #aec8ce;
     
 }
 h1,h2,h3,a{
@@ -64,11 +64,12 @@ nav{
 
     max-width:1200px;
     min-width:1000px;
+    
     margin: 0 auto;
 }
 .hero-text{
     padding:80px;
-    background-color:#CCC2CD;
+    background-color:#d6c7c7;
     color:balck;
     text-align: right;
     flex:1;
@@ -81,20 +82,21 @@ nav{
 }
 .link2{
     padding:20px 40px;
-    background-color: #335D7E;
+    background-color: #9fb9bf;
+    border:2px solid white;
     border-radius: 15px;
     
-    color:white;
+    color:black;
     text-decoration:none;
 }
-
 .hero-image{
-    background: url(../chris-ried-ieic5Tq8YMk-unsplash.jpg) ;
+    background-image: url(../images/chris-ried-ieic5Tq8YMk-unsplash\ -600.jpg);
+    background-repeat: no-repeat;
     background-size:cover;
-    background-position: center;
-    background-color: #B4D0E7;
+    background-color: #9fb9bf;
     flex:1;
-    width:50%;
+
+    width:100%;
 }
 
 .hero-text p{

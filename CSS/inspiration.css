@@ -5,7 +5,7 @@
 }
 body{
     
-    background-color:#335D7E;
+    background-color:#aec8ce;
     /* background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)) , url(../Photos/john-hoang-S4KqtR-QnZg-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat; */
@@ -14,6 +14,9 @@ body{
 }
 h1,h2,h3,a{
     font-family: 'Oswald', sans-serif;
+}
+h1{
+    font-size: 3rem;
 }
 h2{
     font-size:2.5rem;
@@ -24,7 +27,7 @@ h3{
 p{
     font-family: 'Crimson Text', serif;
     font-size: 1.25rem;
-    line-height:1rem;
+    line-height:1.5rem;
 }
 
 .container{
@@ -96,11 +99,36 @@ main{
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     
-    border:2px solid black;
+    background-color:#d6c7c7 ;
+    
 }
 #inspo1{
-    border:2px solid black;
+    background-color: white;
+    border:5px solid black;
+}
+#inspo1 img{
+    width:50%
+    
 }
 #inspo2{
-    border:2px solid black;
+    background-color: black;
+    border:5px solid black;
+}
+#inspo2 img{
+    width:50%;
+}
+.pics{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.inspo-text{
+    background-color: #d6c7c7;
+    padding:2rem;
+    text-align: justify;
+}
+h1{
+    text-align: center;
+    background-color: #d6c7c7;
+    border:5px solid black;
 }

@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 body{
-    background-color: #CCC2CD
+    background-color:#d6c7c7;
 }
 h1,h2,h3,h4,a{
     font-family: 'Oswald', sans-serif;
@@ -58,7 +58,7 @@ nav{
 }
 
 #info{
-    border:8px solid #335D7E;
+    border:8px solid #aec8ce;
     text-align:center;
     background-color: white;
     padding:1.5rem;
@@ -74,28 +74,21 @@ nav{
 
 #contact-box h1{
     font-size:2.5rem;
-    color:#335D7E;
+    color:black;
 
     position:relative;
     top:40px;
     left:10%;
 }
 
-
 #info a{
-    background-color:#335D7E;
+    background-color:#aec8ce;
     padding:5px;
     border-radius: 2px;
     text-decoration:none;
     color:white;
     border:1px solid white;
 }
-
-#info a:hover{
-    background-color:white;
-    color:#335D7E;
-}
-
 #contact-box{
 
     height:420px;
@@ -109,6 +102,6 @@ nav{
 }
 #contact-text{
     border: 2px dotted black;
-    padding:5px;
+    padding:10px;
     margin-bottom: 10px;
 }
