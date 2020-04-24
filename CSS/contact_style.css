@@ -4,23 +4,32 @@
     box-sizing:border-box;
 }
 body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:#335D7E;
-    /* background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)) , url(../Photos/john-hoang-S4KqtR-QnZg-unsplash.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; */
-
-    overflow:auto;
+    background-color: #CCC2CD
 }
-
+h1,h2,h3,h4,a{
+    font-family: 'Oswald', sans-serif;
+}
+h2{
+    font-size:2.5rem;
+}
+h3{
+    font-size:1.5rem;
+}
+p{
+    font-family: 'Crimson Text', serif;
+    font-size: 1.25rem;
+    line-height:1rem;
+}
 .container{
     display:flex;
     justify-content:space-between;
     align-items:center;
+
     background-color:#f3f3f3;
+
     max-width:1200px;
-    height:60px;
     margin:0 auto;
+    height:60px;
 }
 .link1{
     text-decoration:none;
@@ -37,10 +46,15 @@ ul{
     align-items:center;
 }
 li{
-    padding:30px;
+    padding:5px 20px;
 }
 #nav-text{
     padding: 20px 20px 20px 50px;
+}
+nav{
+    width:100%;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 #info{
@@ -83,7 +97,6 @@ li{
 }
 
 #contact-box{
-    background-color: #CCC2CD;
 
     height:420px;
 
@@ -93,4 +106,9 @@ li{
 
     display:flex;
     flex-direction: column;
+}
+#contact-text{
+    border: 2px dotted black;
+    padding:5px;
+    margin-bottom: 10px;
 }
