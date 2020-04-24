@@ -89,13 +89,13 @@ nav{
     color:black;
     text-decoration:none;
 }
-/* .hero-image{
+.hero-image{
     background-image: url(../images/chris-ried-ieic5Tq8YMk-unsplash\ -600.jpg);
     background-size: cover;
     background-color: #9fb9bf;
     flex:1;
     width:100%;
-} */
+}
 
 .hero-text p{
     line-height: 2;
