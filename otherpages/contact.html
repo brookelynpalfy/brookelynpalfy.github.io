@@ -36,34 +36,24 @@
                     <h3>Please Enter Your Contact Information:</h3>
                 
                     <label for="msg1">Name:</label><br>
-                    <input type="text" placeholder="First and last name..." name="msg1">
-                </form>
-
-                <form action="/action_page.php">
+                    <input type="text" placeholder="First and last name..." name="msg1" required><br>
                 
-                    <label for="msg2">Email:</label><br>
-                    <input type="text" placeholder="ex. john@gmail.com ..." name="msg2">
-
-                </form>
-
-                <form action="/action_page.php">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" placeholder="ex. john@gmail.com ..." name="email" required><br>
                 
-                    <label for="msg3">Phone Number:</label><br>
-                    <input type="text" placeholder="ex. (514) 555-5555 ..." name="msg3">
-                </form>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
 
                 <h4>Select Your Preferred Contact Method:</h4>
-                <form>
+                
                   <input type="radio" id="phone" name="contact" value="Phone">
                   <label for="phone">Phone</label><br>
-                  <input type="radio" id="email" name="contact" value="email">
+                  <input type="radio" id="email" name="contact" value="email"required>
                   <label for="email">Email</label><br>
-                </form>
 
                 <h4>Select Your Province:</h4>
 
-                <form action="/action_page.php">
-                <select id="provinces" name="provinces">
+                <select id="provinces" name="provinces" >
                     <option value="alberta">Alberta</option>
                     <option value="british-columbia">British Columbia</option>
                     <option value="manitoba">Manitoba</option>
@@ -79,14 +69,12 @@
                     <option value="yukon">Yukon</option>
                     
                 </select>
-                </form>
 
-                <form action="/action_page.php">
                     <h4>Leave Your Message Here:</h4>
                 
                     <label for="msg1">Message:</label><br>
                     <textarea name="msg1"></textarea><br>
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit"required>
                   </form>
             </div>
         </div>

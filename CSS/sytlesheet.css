@@ -57,6 +57,10 @@ nav{
     overflow-x: auto;
     overflow-y: hidden;
 }
+nav ul li a:hover{
+    background-color: dimgray;
+    color:white;
+}
 
 .hero-section{
     display:flex;

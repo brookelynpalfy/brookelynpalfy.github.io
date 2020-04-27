@@ -66,6 +66,10 @@ nav{
     overflow-x: auto;
     overflow-y: hidden;
 }
+nav ul li a:hover{
+    background-color: dimgray;
+    color:white;
+}
 
 main{
     max-width: 1200px;
