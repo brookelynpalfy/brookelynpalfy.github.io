@@ -20,6 +20,9 @@ p{
     font-size: 1.25rem;
     line-height:1rem;
 }
+main{
+    max-width: 1200px;
+}
 .container{
     display:flex;
     justify-content:space-between;
