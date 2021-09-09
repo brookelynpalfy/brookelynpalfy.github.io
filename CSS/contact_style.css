@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 body{
-    background-color:#d6c7c7;
+    background-color:335D7E;
 }
 h1,h2,h3,h4,a{
     font-family: 'Oswald', sans-serif;
@@ -28,7 +28,7 @@ main{
     justify-content:space-between;
     align-items:center;
 
-    background-color:#f3f3f3;
+    background-color:6D5C7D;
 
     max-width:1200px;
     margin:0 auto;
@@ -64,7 +64,7 @@ nav ul li a:hover{
     color:white;
 }
 #info{
-    border:8px solid #aec8ce;
+    border:8px solid #C16C86;
     text-align:center;
     background-color: white;
     padding:1.5rem;
@@ -88,7 +88,7 @@ nav ul li a:hover{
 }
 
 #info a{
-    background-color:#aec8ce;
+    background-color:#C16C86;
     padding:5px;
     border-radius: 2px;
     text-decoration:none;
