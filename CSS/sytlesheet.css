@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 body{
-    background-color: #aec8ce;
+    background-color: 335D7E;
     
 }
 main{
@@ -77,7 +77,7 @@ nav ul li a:hover{
 }
 .hero-text{
     padding:80px;
-    background-color:#d6c7c7;
+    background-color:#6D5C7D;
     color:black;
     text-align: right;
     flex:1;
@@ -90,7 +90,7 @@ nav ul li a:hover{
 }
 .link2{
     padding:20px 40px;
-    background-color: #9fb9bf;
+    background-color: #C16C86;
     border:2px solid white;
     border-radius: 15px;
     
@@ -101,7 +101,7 @@ nav ul li a:hover{
     flex:1;
     background-image: url(../images/chris-ried-ieic5Tq8YMk-unsplash\-600.jpg);
     background-size: cover;
-    background-color: #9fb9bf;
+    background-color: #C16C86;
     width:100%;
 }
 
